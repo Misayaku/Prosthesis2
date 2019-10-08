@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Répartition linéaire des éléments sur l'écran -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controller.DebugActivity"
+    android:background="@drawable/debug_bg_trans"
+
+    >
+
+    <!-- Texte titre de l'app -->
+    <TextView
+        android:id="@+id/activity_debug_header_text"
+        android:text="PROSTHESIS PROJECT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textColor="#550000"
+        android:textStyle="bold"
+
+
+        />
+
+    <!-- Texte de bienvenue -->
+    <TextView
+        android:id="@+id/activity_debug_mode_text"
+        android:text="DEBUG MODE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#ffffff"
+
+
+        />
+
+    <Button
+        android:id="@+id/activity_debug_emg_button"
+        android:text="EMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        />
+
+    <Button
+        android:id="@+id/activity_debug_Haptic_button"
+        android:text="HAPTIC FEEDBACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        />
+
+    <Button
+        android:id="@+id/activity_debug_control_button"
+        android:text="CONTROL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        />
+
+    <Button
+        android:id="@+id/activity_debug_mechanics_button"
+        android:text="MECHANICS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        />
+</LinearLayout>
