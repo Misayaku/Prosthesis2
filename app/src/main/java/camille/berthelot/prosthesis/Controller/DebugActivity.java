@@ -41,8 +41,8 @@ public class DebugActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 // Open User activity
-                Intent userActivityIntent = new Intent(DebugActivity.this, EmgActivity.class);
-                startActivity(userActivityIntent);
+                Intent emgActivityIntent = new Intent(DebugActivity.this, EmgActivity.class);
+                startActivity(emgActivityIntent);
             }
         });
 
@@ -50,8 +50,8 @@ public class DebugActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Open User activity
-                Intent userActivityIntent = new Intent(DebugActivity.this, HapticActivity.class);
-                startActivity(userActivityIntent);
+                Intent hapticActivityIntent = new Intent(DebugActivity.this, HapticActivity.class);
+                startActivity(hapticActivityIntent);
             }
         });
 

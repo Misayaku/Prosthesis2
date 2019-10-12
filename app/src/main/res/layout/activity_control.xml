@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/debug_bg_trans"
+    android:background="#000000"
     tools:context=".Controller.ControlActivity">
 
 
@@ -40,21 +40,21 @@
         />
     <TextView
         android:id="@+id/activity_control_force_text"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- - - - - - - - - -    Force intensity (%)   - - - - - - - - - "
-
+        android:text="- - - - - - -  Force intensity - - - - - - "
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:background="#FFFFFF"
-
-
         />
+
 <LinearLayout
-android:layout_width="match_parent"
+android:layout_width="wrap_content"
 android:layout_height="wrap_content"
-android:orientation="horizontal">
+android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
 
 
 
@@ -88,33 +88,36 @@ android:orientation="horizontal">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
         android:padding="10dp"
         android:text="0"
         android:textSize="20sp"
-        android:textColor="#000000"
-        android:background="#00FFFF"
+        android:textColor="#FFFFFF"
+        android:background="#550000"
         />
 
 </LinearLayout>
 
     <TextView
         android:id="@+id/activity_control_mvt_text"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- - - - - - - - - -    Mouvement type   - - - - - - - - - "
-
+        android:text="- - - - - - -  Mouvement type - - - - - - "
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:background="#FFFFFF"
+
         />
 
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_gravity="center">
 
         <TextView
             android:id="@+id/activity_control_mvt_textview"
@@ -125,8 +128,8 @@ android:orientation="horizontal">
             android:padding="10dp"
             android:text="1"
             android:textSize="20sp"
-            android:textColor="#000000"
-            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:background="#550000"
             />
 
 
@@ -140,7 +143,7 @@ android:orientation="horizontal">
             android:textSize="20sp"
             android:textColor="#FFFFFF"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="220dp"
+            android:layout_marginLeft="150dp"
             />
 
         <Button

@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/debug_bg_trans"
+    android:background="#000000"
     tools:context=".Controller.HapticActivity">
 
 
     <!-- Texte titre de l'app -->
     <TextView
         android:id="@+id/activity_haptic_header_text"
-        android:text="PROSTHESIS PROJECT"
+        android:text=" HAPTIC FEEDBACK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:padding="10dp"
         android:textSize="22sp"
-        android:textColor="#550000"
+        android:textColor="#55cc00"
         android:textStyle="bold"
 
 
@@ -26,21 +26,211 @@
     <!-- Texte de bienvenue -->
     <TextView
         android:id="@+id/activity_haptic_mode_text"
-        android:text="HAPTIC FEEDBACK"
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="1dp"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:background="#ffffff"
+        android:background="#ffffcc"
+        />
+    <TextView
+        android:id="@+id/activity_haptic_force_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - - - - - - - -   Force   - - - - - - - - "
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+
+
+
+        <Button
+            android:id="@+id/activity_haptic_minus_button"
+            android:background="@drawable/mybutton"
+            android:text="-"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/activity_haptic_plus_button"
+            android:background="@drawable/mybutton"
+            android:text="+"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/activity_haptic_force_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:background="@drawable/mybutton2"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_haptic_frequence_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - - - - - - -  Fréquence  - - - - - - - "
+        android:layout_gravity="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
 
         />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
 
+        <Button
+            android:id="@+id/activity_haptic_freq_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="20dp"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:background="@drawable/mybutton2"
+            />
+
+
+
+        <Button
+            android:id="@+id/activity_haptic_minus2_button"
+            android:background="@drawable/mybutton"
+            android:text="-"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            />
+
+        <Button
+            android:id="@+id/activity_haptic_plus2_button"
+            android:background="@drawable/mybutton"
+            android:text="+"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_haptic_motif_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - - - - - - - - -  Motif - - - - - - - - - - "
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_haptic_separation3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - - - - - - - - - - - - - - - - - - - - - - - "
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+
+        >
+        <Button
+            android:id="@+id/activity_haptic_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| BACK |"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#000000"
+
+
+            />
+        <Button
+            android:id="@+id/activity_haptic_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| RESET |"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#000000"
+            android:layout_marginLeft="1dp"
+            />
+        <Button
+            android:id="@+id/activity_haptic_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| APPLY |"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#000000"
+            android:layout_marginLeft="1dp"
+            />
+    </LinearLayout>
 
 </LinearLayout>
